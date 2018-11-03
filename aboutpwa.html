@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:0px;
+  margin-right: 100px;
+  margin-bottom: 0;
+  margin-left: 100px;
+}
+
+/* Images used */
+.img1 { background-image: url("img/c1.png"); }
+.img2 { background-image: url("img/c2.png"); }
+.img3 { background-image: url("img/c3.png"); }
+.img4 { background-image: url("img/c4.png"); }
+.img5 { background-image: url("img/c5.png"); }
+.img6 { background-image: url("img/c6.png"); }
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+ .bg {
+    /* The image used */
+    background-image: url(img/bg.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+</style>
+
+   <style>
+.avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+      }
+
+ .rotateimg180a {
+  -webkit-transform:rotate(145deg);
+  -moz-transform: rotate(145deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(145deg);
+}
+    .foot {
+       font-family: 'Lobster', cursive;
+       text-shadow: 4px 4px 4px #aaa;
+       font-size: 48px;
+    }
+
+    .pwa {
+        font-family: 'Faster One', cursive;
+    }
+
+</style>
+
+
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Progressive Web App Project</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutpwa.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+       <br><br><br><br><br>
+<div class="bg-image img1"></div>
+
+<div class="bg-image img2"></div>
+<div class="bg-image img3"></div>
+<div class="bg-image img4"></div>
+<div class="bg-image img5"></div>
+<div class="bg-image img6"></div>
+
+<div class="bg-text pwa">PWA</div>
+
+
+
+    <!-- Footer -->
+
+     <!-- Footer -->
+<footer class="page-footer font-small py-5 bg-dark darken-3 pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+
+        <!--Grid column-->
+        <div class="col-md-6">
+          <!-- Video -->
+          <div class="embed-responsive embed-responsive-16by9 mb-4">
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/0OJ24kCV-J8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+
+     <p class="m-0 text-center text-white foot">
+     Stephen Jolayemi &nbsp; &nbsp;Copyright &copy; Created for class project demo 2018
+     </p>
+           <img src="img/Bodunrin 2a.jpg" alt="Bodunrin" class="avatar float-right img-fluid" width="500" height="535">
+           <img src="img/Bodunrin 2a.jpg" alt="Bodunrin" class="avatar float-left img-fluid rotateimg180" width="500" height="535">
+
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+      <div class="container-fluid bg">
+
+
+
+    </div><!-- /.container-fluid ->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
